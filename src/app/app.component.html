@@ -1,9 +1,9 @@
 <!-- <router-outlet></router-outlet> -->
-<div>
+
 <app-menu></app-menu>
+<div class="main_component">
 <app-main *ngIf="page === 'main'"></app-main>
-<div>
 <app-register *ngIf="page === 'register'"></app-register>
 <app-scores *ngIf="page === 'scores'"></app-scores>
-</div>
+<app-login *ngIf="page === 'login'"></app-login>
 </div>>
