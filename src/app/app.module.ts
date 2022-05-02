@@ -8,6 +8,7 @@ import { ScoresComponent } from './pages/scores/scores.component';
 
 import { RegisterComponent } from './pages/register/register.component';
 import { MenuComponent } from './pages/menu/menu.component';
+import { LoginComponent } from './pages/login/login.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { MenuComponent } from './pages/menu/menu.component';
     MainComponent,
     ScoresComponent,
     RegisterComponent,
-    MenuComponent
+    MenuComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
